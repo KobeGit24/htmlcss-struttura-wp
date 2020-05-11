@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 150px;
+  background-color: yellow;
+}
+
+main {
+  margin: 10px 0;
+}
+
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+section {
+  float: left;
+}
+
+.sec-left {
+  background-color: pink;
+  height: 250px;
+  width: calc(50%/2 - 10px);
+}
+
+.sec-middle {
+  background-color: purple;
+  height: 350px;
+  width: 50%;
+  margin: 0 10px;
+}
+
+.sec-right {
+  width: calc(50%/2 - 10px);
+  height: 150px;
+  background-color: pink;
+  margin-bottom: 10px;
+}
+
+
+footer {
+  height: 150px;
+  background-color: lightblue;
+}
